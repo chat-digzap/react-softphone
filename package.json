@@ -1,0 +1,90 @@
+{
+  "name": "react-softphone",
+  "version": "1.6.0",
+  "description": "Webrtc Softphone React",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "jsnext:main": "dist/index.es.js",
+  "engines": {
+    "node": ">=12",
+    "npm": ">=6"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "release": "rollup -c && np"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prinze77/react-softphone.git"
+  },
+  "keywords": [
+    "React",
+    "Webrtc",
+    "Softphone"
+  ],
+  "author": "Dionis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prinze77/react-softphone/issues"
+  },
+  "homepage": "https://github.com/prinze77/react-softphone#readme",
+  "peerDependencies": {
+    "@emotion/react": "^11.7.0",
+    "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.0.0",
+    "@mui/lab": "^5.0.0-alpha.58",
+    "@mui/material": "^5.0.0",
+    "jssip": "3.3.6",
+    "lodash": "^4.17.21",
+    "luxon": "^2.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "react-swipeable-views": "^0.14.0"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.26.0",
+    "@emotion/react": "^11.7.0",
+    "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.0.0",
+    "@mui/lab": "^5.0.0-alpha.58",
+    "@mui/material": "^5.0.0",
+    "clsx": "^1.1.1",
+    "jssip": "3.3.6",
+    "lodash": "^4.17.21",
+    "luxon": "^2.0.0",
+    "np": "^7.5.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "react-swipeable-views": "^0.14.0",
+    "styled-components": "^5.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.0",
+    "@babel/plugin-external-helpers": "^7.23.0",
+    "@babel/plugin-transform-class-properties": "^7.23.0",
+    "@babel/plugin-transform-export-namespace-from": "^7.23.0",
+    "@babel/plugin-transform-json-strings": "^7.23.0",
+    "@babel/plugin-transform-nullish-coalescing-operator": "^7.23.0",
+    "@babel/plugin-transform-numeric-separator": "^7.23.0",
+    "@babel/plugin-transform-optional-chaining": "^7.23.0",
+    "@babel/plugin-transform-runtime": "^7.23.0",
+    "@babel/preset-env": "^7.23.0",
+    "@babel/preset-react": "^7.23.0",
+    "@rollup/plugin-babel": "^6.0.0",
+    "@rollup/plugin-commonjs": "^25.0.0",
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "@rollup/plugin-url": "^8.0.0",
+    "@testing-library/react-hooks": "^8.0.0",
+    "cross-env": "^7.0.3",
+    "gh-pages": "^6.0.0",
+    "rollup": "^2.60.2",
+    "rollup-plugin-peer-deps-external": "^2.2.4"
+  }
+}
